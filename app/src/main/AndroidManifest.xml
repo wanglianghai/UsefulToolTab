@@ -20,6 +20,8 @@
         </activity>
         <activity android:name=".navigation.NavigationActivity">
         </activity>
+        <activity android:name=".viewpage.TabPageActivity">
+        </activity>
     </application>
 
 </manifest>

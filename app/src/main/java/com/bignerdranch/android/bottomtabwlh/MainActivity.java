@@ -7,11 +7,13 @@ import android.view.View;
 import android.widget.Button;
 
 import com.bignerdranch.android.bottomtabwlh.navigation.NavigationActivity;
+import com.bignerdranch.android.bottomtabwlh.viewpage.TabPageActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button mTabButton;
     private Button mNavigationBottom;
+    private Button mPageButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +28,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         mNavigationBottom = (Button) findViewById(R.id.navigation_bottom);
         mNavigationBottom.setOnClickListener(this);
+
+        mPageButton = (Button) findViewById(R.id.page_button);
+        mPageButton.setOnClickListener(this);
     }
 
     @Override
@@ -36,6 +41,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.navigation_bottom:
                 startActivity(new Intent(this, NavigationActivity.class));
+                break;
+            case R.id.page_button:
+                startActivity(new Intent(this, TabPageActivity.class));
                 break;
         }
     }

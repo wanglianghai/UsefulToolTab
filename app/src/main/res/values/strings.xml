@@ -6,4 +6,5 @@
     <string name="search">search</string>
     <string name="favorite">favorite</string>
     <string name="mine">mine</string>
+    <string name="page_view">page view</string>
 </resources>
