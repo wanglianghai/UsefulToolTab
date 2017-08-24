@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".TabActivity">
+        </activity>
+        <activity android:name=".navigation.NavigationActivity">
+        </activity>
     </application>
 
 </manifest>

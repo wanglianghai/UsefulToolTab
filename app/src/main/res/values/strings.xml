@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">BottomTabWlh</string>
+    <string name="tab">tab</string>
+    <string name="navigation_bottom">navigation bottom</string>
+    <string name="home">home</string>
+    <string name="search">search</string>
+    <string name="favorite">favorite</string>
+    <string name="mine">mine</string>
 </resources>
